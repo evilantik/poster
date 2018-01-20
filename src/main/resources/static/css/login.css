@@ -1,0 +1,24 @@
+input[type=text],[type=password] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.login-form {
+    width:50%;
+    text-align:center;
+    border-width: 10px;
+    margin-left:25%;
+    margin-top:5%;
+    margin-right:25%;
+    padding:20px;
+    border-style:solid;
+}
+
+@media only screen and (max-width: 500px) {
+    input.violet {
+        background-color: #BB00BB;
+    }
+}
